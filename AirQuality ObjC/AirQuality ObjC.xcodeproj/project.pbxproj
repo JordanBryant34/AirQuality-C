@@ -12,6 +12,14 @@
 		620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCA2385DBF9001500FE /* Assets.xcassets */; };
 		620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCC2385DBF9001500FE /* LaunchScreen.storyboard */; };
 		620C4FD12385DBF9001500FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FD02385DBF9001500FE /* main.m */; };
+		7A932FCA2524DD0F00A86BAB /* JDBCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FC92524DD0F00A86BAB /* JDBCityAirQuality.m */; };
+		7A932FCD2524DD5100A86BAB /* JDBWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FCC2524DD5100A86BAB /* JDBWeather.m */; };
+		7A932FD02524DD6200A86BAB /* JDBPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FCF2524DD6200A86BAB /* JDBPollution.m */; };
+		7A932FD52524EB4A00A86BAB /* JDBCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FD42524EB4A00A86BAB /* JDBCityAirQualityController.m */; };
+		7A932FE32524FC6A00A86BAB /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FE22524FC6A00A86BAB /* CountriesTableViewController.swift */; };
+		7A932FE52525003700A86BAB /* StatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FE42525003700A86BAB /* StatesTableViewController.swift */; };
+		7A932FE725250DA700A86BAB /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FE625250DA700A86BAB /* CitiesTableViewController.swift */; };
+		7A932FE9252518F700A86BAB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A932FE8252518F700A86BAB /* DetailViewController.swift */; };
 		7EDFB30B24B6A8DB00B08E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDFB30A24B6A8DB00B08E8C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +33,19 @@
 		620C4FCD2385DBF9001500FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620C4FCF2385DBF9001500FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		620C4FD02385DBF9001500FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A932FC82524DD0F00A86BAB /* JDBCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBCityAirQuality.h; sourceTree = "<group>"; };
+		7A932FC92524DD0F00A86BAB /* JDBCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBCityAirQuality.m; sourceTree = "<group>"; };
+		7A932FCB2524DD5100A86BAB /* JDBWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBWeather.h; sourceTree = "<group>"; };
+		7A932FCC2524DD5100A86BAB /* JDBWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBWeather.m; sourceTree = "<group>"; };
+		7A932FCE2524DD6200A86BAB /* JDBPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBPollution.h; sourceTree = "<group>"; };
+		7A932FCF2524DD6200A86BAB /* JDBPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBPollution.m; sourceTree = "<group>"; };
+		7A932FD32524EB4A00A86BAB /* JDBCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBCityAirQualityController.h; sourceTree = "<group>"; };
+		7A932FD42524EB4A00A86BAB /* JDBCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBCityAirQualityController.m; sourceTree = "<group>"; };
+		7A932FE12524FC3A00A86BAB /* AirQuality ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQuality ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A932FE22524FC6A00A86BAB /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		7A932FE42525003700A86BAB /* StatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesTableViewController.swift; sourceTree = "<group>"; };
+		7A932FE625250DA700A86BAB /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		7A932FE8252518F700A86BAB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7EDFB30A24B6A8DB00B08E8C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +79,9 @@
 		620C4FBD2385DBF6001500FE /* AirQuality ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				7A932FE12524FC3A00A86BAB /* AirQuality ObjC-Bridging-Header.h */,
+				7A932FD12524E89F00A86BAB /* Controllers */,
+				7A932FC52524D87300A86BAB /* Models */,
 				7EDFB30924B6A8C700B08E8C /* Views */,
 				620C4FD72385DDA8001500FE /* Resources */,
 			);
@@ -77,6 +101,48 @@
 				620C4FD02385DBF9001500FE /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A932FC52524D87300A86BAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A932FC82524DD0F00A86BAB /* JDBCityAirQuality.h */,
+				7A932FC92524DD0F00A86BAB /* JDBCityAirQuality.m */,
+				7A932FCB2524DD5100A86BAB /* JDBWeather.h */,
+				7A932FCC2524DD5100A86BAB /* JDBWeather.m */,
+				7A932FCE2524DD6200A86BAB /* JDBPollution.h */,
+				7A932FCF2524DD6200A86BAB /* JDBPollution.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A932FD12524E89F00A86BAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A932FD62524F42E00A86BAB /* View Controllers */,
+				7A932FD22524E8A500A86BAB /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A932FD22524E8A500A86BAB /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A932FD32524EB4A00A86BAB /* JDBCityAirQualityController.h */,
+				7A932FD42524EB4A00A86BAB /* JDBCityAirQualityController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		7A932FD62524F42E00A86BAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A932FE22524FC6A00A86BAB /* CountriesTableViewController.swift */,
+				7A932FE42525003700A86BAB /* StatesTableViewController.swift */,
+				7A932FE625250DA700A86BAB /* CitiesTableViewController.swift */,
+				7A932FE8252518F700A86BAB /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		7EDFB30924B6A8C700B08E8C /* Views */ = {
@@ -113,7 +179,7 @@
 		620C4FB32385DBF6001500FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DVM;
+				CLASSPREFIX = JDB;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "RYAN GREENBURG";
 				TargetAttributes = {
@@ -159,9 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A932FE9252518F700A86BAB /* DetailViewController.swift in Sources */,
+				7A932FE32524FC6A00A86BAB /* CountriesTableViewController.swift in Sources */,
+				7A932FCA2524DD0F00A86BAB /* JDBCityAirQuality.m in Sources */,
+				7A932FD02524DD6200A86BAB /* JDBPollution.m in Sources */,
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
+				7A932FE52525003700A86BAB /* StatesTableViewController.swift in Sources */,
+				7A932FD52524EB4A00A86BAB /* JDBCityAirQualityController.m in Sources */,
+				7A932FE725250DA700A86BAB /* CitiesTableViewController.swift in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
+				7A932FCD2524DD5100A86BAB /* JDBWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +308,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -285,6 +360,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -295,7 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H8C27D6HU3;
+				DEVELOPMENT_TEAM = PPT8LS6UXM;
 				INFOPLIST_FILE = "$(SRCROOT)/AirQuality ObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H8C27D6HU3;
+				DEVELOPMENT_TEAM = PPT8LS6UXM;
 				INFOPLIST_FILE = "$(SRCROOT)/AirQuality ObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
